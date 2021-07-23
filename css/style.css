@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Roboto',
+    sans-serif;
+    overflow: hidden;
+}
+
+
+#body_images{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+.task_icon,
+.side_icon {
+    width: 1.6rem;
+height: 1.6rem;
+margin: 0rem 0.6rem;}
+
+p{font-size: .6rem;margin: 0px;padding: 0px;color: black;}
+
+.taskbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: #dcdee6;
+    border: 0px;
+    padding: .4rem;
+}
+
+.mid_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.side_icon_task{display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.possition{display: inline-block;
+position: fixed;
+bottom: 6px;
+left: 600px;}
+
+.side_icon_position{display: inline-block;
+position: fixed;
+bottom: 6px;
+right: 30px;}
+
+.main_bar{display: inline-block;
+position: fixed;
+bottom: 0px;
+width: 100%;
+padding: .9rem;
+background-color: #dcdee6;
+  }
+
+.menu_bar{
+   background-color: #dcdee6;
+
+}
+
+.menu_main{
+    display: flex;
+    flex-direction: column;
+  background-color: #dcdee6;
+  border-radius: 12px;
+  position: absolute;
+  top: -549px;
+  left: 520px;
+
+  padding: 1.2rem;
+  bottom: 60px;
+  max-width: 90vh;
+}
+
+.main_icon{display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.main_icon_position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.icon_main{
+   padding-right: 2rem;
+   padding-top: 1.6rem;
+}
+
+.sides_icon{
+    padding-top: 1.6rem;
+}
+
+.main_icon_task{
+    position: relative;
+      margin-top: 1.2rem;
+      margin-left: .5rem
+}
+
+
+.main_icon_task1 {
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 8rem;
+}
+
+.show_menu{top:70px}
