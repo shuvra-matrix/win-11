@@ -38,6 +38,7 @@ p{font-size: .6rem;margin: 0px;padding: 0px;color: black;}
     background-color: #dcdee6;
     border: 0px;
     padding: .4rem;
+    z-index: 200;
 }
 
 .mid_icon{
@@ -81,12 +82,13 @@ background-color: #dcdee6;
   background-color: #dcdee6;
   border-radius: 12px;
   position: absolute;
-  top: -549px;
+  top: -549px ;
   left: 520px;
 
   padding: 1.2rem;
   bottom: 60px;
   max-width: 90vh;
+
 }
 
 .main_icon{display: flex;
